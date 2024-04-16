@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Weld</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to styles.css -->
+    <style>
+        body {
+            background-color: #c2d2df; 
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="howtoweld.html" class="active">How to Weld</a>
+        <a href="projectideas.html">Project Ideas</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="content">
+        <h1>How to Weld</h1>
+    </div>
+
+    <div class="maincontent">
+        <h3>Preparation</h3>
+        <ul>
+            <li>Put on safety gear: welding helmet with a dark lens, welding gloves, long-sleeved shirt, and pants without cuffs.</li>
+            <li>Clear the work area of flammable materials and ensure good ventilation.</li>
+        </ul>
+        <img src="assets/weldingattire.jpg" alt="Welding Attire">
+
+        <h3>Set Up Your Equipment:</h3>
+        <ul>
+            <li>Choose the appropriate welding machine and welding rod or wire based on the materials you're welding (e.g., MIG, TIG, stick welding).</li>
+            <li>Set the welding machine to the recommended settings for your material thickness and type of weld.</li>
+        </ul>
+
+        <h3>Prepare the Materials:</h3>
+        <div id="anchor1"></div>
+        <ul>
+            <li>Clean the metal surfaces to be welded to remove dirt, rust, and paint using a wire brush or grinder.</li>
+            <li>Clamp or secure the pieces to be welded in the desired position.</li>
+            <img src="assets/WireCup.jpg" alt="Wire Cup">
+        </ul>
+
+        <h3>Welding</h3>
+        <ul>
+            <li>Position yourself comfortably with a stable stance.</li>
+            <li>Hold the welding torch or electrode holder firmly and at the correct angle (usually around 10-15 degrees from vertical).</li>
+            <li>Strike an arc by touching the electrode to the metal or pressing the trigger on a MIG or TIG torch.</li>
+            <li>Move the torch or electrode in a steady motion along the joint, maintaining a consistent speed and distance from the workpiece.</li>
+            <img src="assets/welding patterns.jpg" alt="Welding Patterns">
+        </ul>
+
+        <h3>Creating the Weld</h3>
+        <ul>
+            <li>Watch the weld pool as you work; it should be smooth and evenly distributed.</li>
+            <li>Add filler material (if using) into the weld pool to strengthen the joint.</li>
+            <li>Continue welding along the entire length of the joint, making sure to overlap each pass slightly.</li>
+            <img src="assets/migstick.jpg" alt="MIG Stick Welding">
+        </ul>
+
+        <h3>Finishing</h3>
+        <ul>
+            <li>Allow the welded area to cool gradually.</li>
+            <li>Inspect the weld for any defects or irregularities.</li>
+            <li>Grind or clean excess material for a smooth finish if necessary.</li>
+            <li><a href="#anchor1">Wire brush the area down</a></li>
+        </ul>
+
+        <h3>Clean-up</h3>
+        <ul>
+            <li>Power down the welding machine.</li>
+            <li>Store equipment properly and dispose of any waste materials safely.</li>
+        </ul>
+    </div>
+
+    <div class="maincontent">
+        <h3>Additional Resources</h3>
+        <!-- Embedded YouTube Video with Thumbnail -->
+        <div class="video-container">
+            <!-- Replace VIDEO_ID with your YouTube video ID -->
+            <iframe src="https://www.youtube.com/embed/OWThL97tq3k" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="index.html">Previous Page</a>
+            <a href="projectideas.html">Next Page</a>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        // Get the current page URL
+        let currentPage = window.location.href;
+
+     // Loop through all links in the navigation
+        document.querySelectorAll('.topnav a').forEach(link => {
+        // Check if the link's href matches the current page URL
+        if (link.href === currentPage) {
+            // Add the 'active' class to the matching link
+            link.classList.add('active');
+        }
+    });
+    </script>
+</body>
+
+</html>

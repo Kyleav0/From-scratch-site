@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to styles.css -->
+    <style>
+        body {
+            background-color: #c2d2df; 
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="howtoweld.html">How to Weld</a>
+        <a href="projectideas.html">Project Ideas</a>
+        <a href="about.html">About</a>
+
+    </div>
+
+    <div class= "content">
+            <h1>Project Ideas</h1>
+            <blockquote class="blockquote">This page can inspire beginners with simple projects and challenge experienced welders with more complex designs.</blockquote>
+
+
+
+    </div>
+
+
+    <div class="maincontent">
+        <h3>Metal Sculptures</h3>
+        <img src="assets/metalsculpture.jpg" alt="metalsculpture">
+        <h3>Furniture</h3>
+        <img src="assets/Furniture.jpg" alt="furniture">
+        <h3>Garden Art</h3>
+        <img src="assets/gardenart.jpg" alt="Gardenart">
+        <h3>Automotive Projects</h3>
+        <img src="assets/automotive welding.jpg" alt="carwelding">
+        <h3>Outdoor Fire Pits</h3>
+        <img src="assets/outdoorfirepit.jpeg" alt="outdoorfirepit">
+        <h3>Sculptural Lighting Fixtures</h3>
+        <img src="assets/lightingfixture.jpg" alt="lightingfixture">
+        <h3>Functional Art</h3>
+        <img src="assets/functionalwine.jpg" alt="functionalwine">
+        <h3>Structural Projects</h3>
+        <img src="assets/structuralwelding.png" alt="structuralwelding">
+        <h3>Custom Tools and Equipment</h3>
+        <img src="assets/hammer.jpg" alt="hammer">
+
+
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        
+        <div class="footer-nav">
+            <a href="howtoweld.html">Previous Page</a>
+            <a href="about.html">Next Page</a>
+            
+        </div>
+    </footer>
+
+
+
+    <script>
+        // Get the current page URL
+        let currentPage = window.location.href;
+    
+        // Loop through all links in the navigation
+        document.querySelectorAll('.topnav a').forEach(link => {
+            // Check if the link's href matches the current page URL
+            if (link.href === currentPage) {
+                // Add the 'active' class to the matching link
+                link.classList.add('active');
+            }
+        });
+    </script>
+    
+    
+    
+</body>
+</html>
